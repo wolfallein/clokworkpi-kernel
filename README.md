@@ -1,9 +1,10 @@
-# clokworpi-kernel
+# clokworkpi-kernel
 List of patches to use when compiling linux kernel mainline
 
-## Aplying patch
+Copy the patch inside the kernel source root
+
+## Aplying patch, replace "xxx" with patch name
 * git apply xxx.patch
-replace "xxx" with patch name
 
 ## Compilation process:
 ### Copy clockworkpi defconfig to actual config
