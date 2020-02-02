@@ -1,4 +1,4 @@
-# clokworpi-kernel
+# clokworkpi-kernel
 List of patches to use when compiling linux kernel mainline
 
 ## Aplying patch
