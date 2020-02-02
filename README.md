@@ -14,6 +14,7 @@ replace "xxx" with patch name
 * make -j4
 ### Create u-boot image, remember to install u-boot-tools with: sudo apt-get install u-boot-tools
 * mkimage -A arm -O linux -T kernel -C none -a 0x40008000 -e 0x40008000 -n "Linux kernel" -d arch/arm/boot/zImage uImage
+* ckmod +x uImage
 
 ## Mount /boot if you don't have it populated
 * sudo mount /dev/mmcblk0p1 /boot
